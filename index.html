@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #main div{
+                margin-top: 10px;
+            }
+            #mydiv:hover img{
+                display: block;
+            }
+            img{
+                display: none;
+                width: 65vw;
+                position: absolute;
+                right: 0;
+                top: 30vh;
+            }
+        </style>
+    </head>
+    <body style="background-image: url(./html_soucre/wallhaven-4ykzvd.jpg); background-repeat: no-repeat;background-size: cover; background-attachment:fixed;">
+        
+        <div style="margin-top: 30%;margin-right: 70%;background-color:rgba(164, 225, 255, 0.586);border-radius: 10px;padding: 10px;">
+            <a href="https://github.com/XiongZhiYuan233/moocScript/releases/download/version1/moocScript.rar">压缩包下载</a>
+            <div id="main">
+                <div>食用说明</div>
+                <div id="mydiv">1.获取MOOC网址(必须是要刷的课程的第一个课的网址)<span><img src="./html_soucre/屏幕截图 2023-10-21 165035.png"></span></div>
+                <div>2.获取Chromedriver在本地的路径(找到压缩包里的这个右键复制路径就可以了)</div>
+                <div id="mydiv">
+                    3.获取Chrome本地存储用户信息的路径(不要后面的Default)<hr style="border: 0;">
+                    在chrome里输入chrome://version
+                    找到个人资料路径<span><img src="./html_soucre/屏幕截图 2023-10-21 164755.png"></span>
+                </div>
+
+                <div>
+                    4.在Chrome上登陆一次MOOC
+                </div>
+                <div id="mydiv">
+                    5.打开解压出的文件所在在的文件夹，打开cmd（点击红线空白处全部删掉输入cmd，再回车）， 输入 moocScript.exe MOOC网址 Chromedriver路径 Chrome存储信息路径
+                    <span><img src="./html_soucre/屏幕截图 2023-10-21 170814.png" style="top: 10vh;"></span>
+                    <span><img src="./html_soucre/屏幕截图 2023-10-21 171913.png" style="top: 70vh;"></span>
+                </div>
+                <div>补充：运行需要的都已经放在压缩包里了，已经有chrome可自行删除chrome，但是chrome和chromedriver版本需要是对应的，否则会可能运行不了，里面自带的是180的版本</div>
+
+            </div>
+            
+        </div>
+    </body>
+</html>
