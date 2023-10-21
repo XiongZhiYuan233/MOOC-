@@ -1,10 +1,10 @@
 # MOOC-
-自动完成MOOC
-觉得还不错就点个star吧
-[教程及下载](https://xiongzhiyuan233.github.io/moocScript/)
-
-目前支持以下4种标签的自动完成
+自动完成MOOC  
+觉得还不错就点个star吧  
+[教程及下载](https://xiongzhiyuan233.github.io/moocScript/)  
+目前支持以下4种标签的自动完成  
 富文本
 文档
 视频
-讨论
+讨论  
+如果有更新建议之类的可以联系这个邮箱:19352797@qq.com
